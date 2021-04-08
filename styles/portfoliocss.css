@@ -1,4 +1,58 @@
+:root {
+  --serif-font: "Noto Serif JP", serif;
+  --sans-serif-font: "Raleway", sans-serif;
+}
+
+/* homepage css */
+
 h1 {
-  color: pink;
-  font-weight: bold;
+  font-family: var(--serif-font);
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h2,
+h4,
+.hero-nav-links {
+  font-family: var(--sans-serif-font);
+}
+
+.hero-homepage {
+  background-color: lavender;
+  text-align: center;
+  padding: 160px;
+}
+
+.hero-tagline {
+  margin-top: 25px;
+}
+
+.hero-btn {
+  background-color: blueviolet;
+  color: white;
+  font-size: 18px;
+  margin: 10px 10px;
+  padding: 8px 20px;
+}
+
+.hero-btn:hover {
+  background-color: #440a67;
+  color: white;
+  transition: 3ms ease-in-out;
+}
+
+.navigationBar {
+  font-family: var(--sans-serif-font);
+  font-weight: 500;
+}
+
+/* about page css */
+
+.hero-about {
+  background-color: lavender;
+  text-align: center;
+  padding: 160px;
 }
