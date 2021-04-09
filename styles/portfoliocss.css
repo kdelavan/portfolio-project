@@ -3,8 +3,6 @@
   --sans-serif-font: "Raleway", sans-serif;
 }
 
-/* homepage css */
-
 h1 {
   font-family: var(--serif-font);
   font-size: 80px;
@@ -14,16 +12,22 @@ h2 {
   font-size: 45px;
 }
 
+h4 {
+  font-size: 28px;
+}
+
 h2,
 h4,
 .hero-nav-links {
   font-family: var(--sans-serif-font);
 }
 
+/* homepage css */
+
 .hero-homepage {
   background-color: lavender;
   text-align: center;
-  padding: 160px;
+  padding-top: 160px;
 }
 
 .hero-tagline {
@@ -55,4 +59,15 @@ h4,
   background-color: lavender;
   text-align: center;
   padding: 160px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2,
+  h4 {
+    font-size: 20px;
+  }
 }
