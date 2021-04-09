@@ -53,6 +53,19 @@ h4,
   font-weight: 500;
 }
 
+.linkedInLogo,
+.githubLogo,
+.instagramLogo {
+  width: 75px;
+  display: block;
+  margin: 0 auto;
+}
+
+.socialsHeading {
+  text-align: center;
+  font-size: 18px;
+}
+
 /* about page css */
 
 .hero-about {
@@ -60,6 +73,8 @@ h4,
   text-align: center;
   padding: 160px;
 }
+
+/*Media Queries*/
 
 @media (max-width: 900px) {
   h1 {
