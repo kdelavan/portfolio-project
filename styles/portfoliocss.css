@@ -24,10 +24,20 @@ h4,
 
 /* homepage css */
 
+footer {
+  font-family: var(--sans-serif-font);
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
 .hero-homepage {
   background-color: lavender;
   text-align: center;
-  padding-top: 160px;
+  padding-top: 140px;
+  padding-bottom: 140px;
 }
 
 .hero-tagline {
@@ -53,6 +63,15 @@ h4,
   font-weight: 500;
 }
 
+.content-homepage a {
+  text-decoration: none;
+  font-family: var(--sans-serif-font);
+}
+
+.socials {
+  margin: 100px 0 25px 0;
+}
+
 .linkedInLogo,
 .githubLogo,
 .instagramLogo {
@@ -64,6 +83,7 @@ h4,
 .socialsHeading {
   text-align: center;
   font-size: 18px;
+  font-family: var(--sans-serif-font);
 }
 
 /* about page css */
