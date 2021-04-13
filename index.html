@@ -16,6 +16,7 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -24,7 +25,10 @@
     />
 
     <link rel="stylesheet" href="/styles/portfoliocss.css" />
-
+    <meta
+      name="description"
+      content="Kathryn Delavan is a front-end developer - view her work here"
+    />
     <title>Kathryn Delavan - Front-End Developer</title>
   </head>
 
@@ -47,16 +51,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  title="Home"
+                  href="/"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about.html">About</a>
+                <a class="nav-link" title="About" href="/about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">My Work</a>
+                <a class="nav-link" title="My Work" href="#">My Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" title="Contact" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -80,20 +90,20 @@
         <div class="row">
           <div class="col-6">
             <img
-              src="images/snout.jpg"
-              alt="take a closer look at that snout"
-              class="img-fluid rounded mt-5"
+              src="images/weather.png"
+              alt="weather application"
+              class="img-fluid rounded mt-5 d-none d-lg-block"
             />
           </div>
-          <div class="col-sm-6 mt-5">
+          <div class="homepageParagraph col-sm-6 mt-5">
             <h3>View my projects</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quos
-              architecto recusandae tempora ipsum esse tempore, corporis
-              reprehenderit eum aspernatur id illum libero, neque maiores sunt!
-              Fugiat sunt excepturi nisi!
+              Follow the link below to take a look at some of my completed
+              projects. As a beginner, my portfolio is small but I have every
+              intention of working hard to create a more robust list of projects
+              to showcase in the future. Check back here for updates!
             </p>
-            <a href="#" title="See my work">Check them out!</a>
+            <a href="#" title="See my work">See my work</a>
           </div>
         </div>
       </div>
@@ -101,31 +111,35 @@
         <div class="socials">
           <div class="row justify-content-center">
             <div class="col-2">
-              <a href="https://www.linkedin.com/in/kathryn-delavan-888263204/"
+              <a
+                href="https://www.linkedin.com/in/kathryn-delavan-888263204/"
+                title="LinkedIn"
                 ><img
                   src="/images/linkedin.png"
                   alt="LinkedIn Logo"
-                  class="linkedInLogo"
+                  class="img-fluid linkedInLogo"
               /></a>
               <h4 class="socialsHeading mt-2">LinkedIn</h4>
             </div>
 
             <div class="col-2">
-              <a href="https://github.com/kdelavan"
+              <a href="https://github.com/kdelavan" title="GitHub"
                 ><img
                   src="/images/github.png"
                   alt="GitHub Logo"
-                  class="githubLogo"
+                  class="img-fluid githubLogo"
               /></a>
               <h4 class="socialsHeading mt-2">GitHub</h4>
             </div>
 
             <div class="col-2">
-              <a href="https://www.instagram.com/intergalacticporcupine/"
+              <a
+                href="https://www.instagram.com/intergalacticporcupine/"
+                title="Instagram"
                 ><img
                   src="/images/instagram.png"
                   alt="Instagram Logo"
-                  class="instagramLogo"
+                  class="img-fluid instagramLogo"
               /></a>
               <h4 class="socialsHeading mt-2">Instagram</h4>
             </div>
@@ -135,7 +149,9 @@
     </div>
     <footer class="mt-4 mb-4">
       <p>
-        <a href="https://github.com/kdelavan/portfolio-project"
+        <a
+          href="https://github.com/kdelavan/portfolio-project"
+          title="See code on GitHub"
           >Open-source code</a
         >
         by Kathryn Delavan
