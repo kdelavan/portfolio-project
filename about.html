@@ -17,13 +17,20 @@
       crossorigin="anonymous"
     ></script>
 
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700;900&family=Raleway:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="/styles/portfoliocss.css" />
 
     <title>Kathryn Delavan - Front-End Developer</title>
   </head>
   <body>
     <div class="navigationBar">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="/">Kathryn Delavan</a>
           <button
@@ -40,16 +47,14 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  title="Home"
-                  href="/"
+                <a class="nav-link" aria-current="page" title="Home" href="/"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" title="About" href="/about.html">About</a>
+                <a class="nav-link active" title="About" href="/about.html"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" title="My Work" href="#">My Work</a>
@@ -62,11 +67,53 @@
         </div>
       </nav>
     </div>
-    </div>
-    <div class="hero-about">
-      <h3 class="about-tagline">👷‍♀️👩‍💻This page is under construction</h3>
+
+    <div class="hero">
+      <h2>Kathryn Delavan</h2>
       <h1>About Me</h1>
-      <h4>An aspiring front-end developer based in Portland, Oregon</h4>
+      <h4 class="tagline">
+        Aspiring front-end developer based in Portland, Oregon
+      </h4>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <img
+            src="/images/selfie.jpg"
+            class="selfie img-fluid rounded mt-4 mb-5"
+            alt="placeholder"
+          />
+        </div>
+        <div class="col-sm-6 mt-4">
+          <div class="content about">
+            <h3>One door closes, another opens</h3>
+            <p>
+              2020 was a rough year for many, myself included. I was fortunate
+              to keep my job for a few months after lockdowns began in March. My
+              team and I worked from home until the organization decided to lay
+              us off. As difficult as it was to leave a job I had been with for
+              5 years, I knew I wanted something different, something more than
+              what my old position offered me. <br /><br />After some time off,
+              I jumped into job searching. I happened to see an ad for a coding
+              boot camp while scrolling through social media and my interest was
+              piqued. I did some research, and before too long I had signed up
+              for a workshop series with SheCodes. Taking those first steps into
+              web development taught me that I love to code!
+            </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="mt-4 mb-4">
+      <p>
+        <a
+          href="https://github.com/kdelavan/portfolio-project"
+          title="See code on GitHub"
+          >Open-source code</a
+        >
+        by Kathryn Delavan
+      </p>
+    </footer>
   </body>
 </html>
