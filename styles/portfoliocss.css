@@ -67,7 +67,7 @@ footer a {
   transition: 3ms ease-in-out;
 }
 
-.content-homepage a {
+.content a {
   text-decoration: none;
   font-family: var(--sans-serif-font);
 }
