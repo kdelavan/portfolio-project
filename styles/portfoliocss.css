@@ -1,6 +1,9 @@
 :root {
   --serif-font: "Noto Serif JP", serif;
   --sans-serif-font: "Raleway", sans-serif;
+
+  --primary-color: #e6e6fa;
+  --secondary-color: #8a2be2;
 }
 
 h1 {
@@ -28,9 +31,9 @@ h4,
 }
 
 .hero {
-  background-color: lavender;
+  background-color: var(--primary-color);
   text-align: center;
-  padding-top: 140px;
+  padding-top: 160px;
   padding-bottom: 140px;
 }
 
@@ -54,7 +57,7 @@ footer a {
 /* homepage css */
 
 .hero-btn {
-  background-color: blueviolet;
+  background-color: var(--secondary-color);
   color: white;
   font-size: 18px;
   margin: 10px 10px;
@@ -79,7 +82,7 @@ footer a {
 .linkedInLogo,
 .githubLogo,
 .instagramLogo {
-  width: 75px;
+  width: 50px;
   display: block;
   margin: 0 auto;
 }
