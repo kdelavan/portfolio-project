@@ -55,6 +55,10 @@ footer a {
   text-decoration: none;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
 .hero-btn {
   background-color: var(--secondary-color);
   color: white;
@@ -74,16 +78,25 @@ footer a {
   font-family: var(--sans-serif-font);
 }
 
+.content a:hover {
+  text-decoration: underline;
+}
+
 .socials {
   margin: 100px 0 25px 0;
 }
 
 .linkedInLogo,
-.githubLogo,
-.instagramLogo {
+.githubLogo {
   width: 50px;
   display: block;
   margin: 0 auto;
+  transition: transform 0.2s;
+}
+
+.linkedInLogo:hover,
+.githubLogo:hover {
+  transform: scale(1.2);
 }
 
 .socialsHeading {
@@ -121,6 +134,10 @@ footer a {
 
   li {
     list-style-type: none;
+  }
+
+  .draculaThemeLink {
+    font-size: 16px !important;
   }
 
   .content a {
