@@ -82,6 +82,24 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.certificateHeading {
+  margin-bottom: 20px;
+}
+
+.sheCodesCertificates {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  padding: 18px 15px 45px 15px;
+}
+
+.certificate {
+  transition: transform 0.2s;
+}
+
+.certificate:hover {
+  transform: scale(1.1);
+}
+
 .socials {
   margin: 100px 0 25px 0;
 }
@@ -96,7 +114,7 @@ footer a:hover {
 
 .linkedInLogo:hover,
 .githubLogo:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .socialsHeading {
@@ -152,6 +170,14 @@ footer a:hover {
 
   .about {
     margin-top: 10px !important;
+  }
+
+  .certificateHeading {
+    text-align: center;
+  }
+
+  .certificate {
+    margin-bottom: 10px;
   }
 
   footer {
